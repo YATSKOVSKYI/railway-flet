@@ -1,0 +1,5 @@
+[variables]
+    GIN_MODE = 'release'
+
+[phases.setup]
+    aptPkgs = ['...', 'libgtk-3-0', 'libgstreamer1.0-0']
